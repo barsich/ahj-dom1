@@ -1,0 +1,21 @@
+
+.field {
+    display: flex;
+}
+
+.cell {
+    width: 111px;
+    height: 111px;
+    background-color: #BCBBB6;
+    background-image: url('../img/hole.png');
+    background-repeat: no-repeat;
+    border-radius: 11px;
+    margin: 3px;
+}
+
+.cat {
+    width: 111px;
+    height: 111px;
+    background-image: url('../img/cat.png');
+    background-repeat: no-repeat;
+}
