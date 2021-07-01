@@ -6,7 +6,7 @@ module.exports = {
   target: 'web',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/',
+    publicPath: '',
   },
   module: {
     rules: [
@@ -39,10 +39,7 @@ module.exports = {
         test: /\.(png|jpg|gif)$/i,
         use: [
           {
-            loader: 'url-loader',
-            options: {
-              limit: true,
-            },
+            loader: 'file-loader',
           },
         ],
       },
