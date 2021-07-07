@@ -1,0 +1,22 @@
+
+.field {
+    display: flex;
+}
+
+.cell {
+    width: 111px;
+    height: 111px;
+    background-color: #BCBBB6;
+    background-image: url(cf702fb33712687cdb2aea7a39c8e9a8.png);
+    background-repeat: no-repeat;
+    border-radius: 11px;
+    margin: 3px;
+}
+
+.cat {
+    width: 111px;
+    height: 111px;
+    background-image: url(76948c5a21ef408bbab6999286097528.png);
+    background-repeat: no-repeat;
+}
+
